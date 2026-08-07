@@ -1,0 +1,56 @@
+	
+- - - - - - - - - - - - - - - - - - - - - Animated Ghost Shaders + Ghost character (Fantasy Edition) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+This pack contains Animated Ghost Shaders and a Little Ghost character with Idle animation.Pack comes with many Shader/Material variations, which you can use to make any thing looks like ghost thing. 
+You can use this Asset commercially and non-commercially.This model is optmized for using in pc, mobile and AR games.
+Note: Materials/Shaders are highly customizable.You can create Unlimted variations of Ghost's Shader's by changing material properties.
+For quick use, 32+ ghost Shaders are included in the pack.Also, this asset uses Shadergraph with Built-in support.
+
+Technical Details:-
+		- Materials/Shaders : 32+ (Custom Material's made with Shadergraph)
+		- Customizable Shaders : YES (Color, Animation speed, Textures, Texture Opacity.etc are customizable)
+		- Animated Shaders : YES
+		- Model(s) : Little Ghost
+		- Model format : (.FBX)
+		- Polygon count : 3788 (Ghost)
+		- Unwrapped : Yes
+		- Animations : 1("Idle" for Ghost)
+		- Prefabs : 32(Ghost)	
+
+Features:-
+	- Fully Customizable Materials
+	- Included many variation's of Cute littel ghosts
+	- Lowpoly ghost model comes with one animation
+	- Optimized for Mobile and AR
+	- Easy to use(Drag and drop the prefab to your scene)
+	- Colliders, Rigidbodies attached
+	- Easy to modify
+
+Shaders/Materials Properties :
+
+- Fresnel Power : Default is 3, Helps you to Controls the basic look like a ghost.
+- Color A & B : Fresnel color, mix of two different colors.
+- Texture1 : An overlay texture (Black and White with unique patterns), With Color, 
+tiling and offset properties.
+- Animation X & Y : Controls the speed of Texture 1 pattern along the mesh (Set both to Zero for no Animations).
+- Distortion X Y : Controls how much you want to distort the "Texture 1" in X axis and Y axis.
+- Distortion Speed : Controls the Speed of the Distortion in the "Texture1" map.
+- Texture2 Overlay : Comes with Color, Offset, Tiling, Animation X & Y and an Opacity features.
+
+
+Folder details:-
+	Materials : Where the materials for the model located.	
+	Meshes : Contain FBX format of the 3d model.	
+	(Other folders - Prefabs, Scenes)
+
+How to use:-	
+	Simply drag and drop the prefab to your scene and use it.
+	(Prefab(s) located under 
+	Asset >  Ghost Shaders Fantasy > Prefabs).
+.....................................................................................................................
+
+About Me : "SR Studios Kerala", Indie Game developer & 2D-3D Artist from Alappuzha, Kerala, India
+contact : srstudioskerala@gmail.com
+ 
+
+................Thank you for downloading this package................................
