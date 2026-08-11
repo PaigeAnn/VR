@@ -14,11 +14,13 @@ public class CodeScript : MonoBehaviour
     
     public GameObject player;
     public GameObject keypad;
+    public GameObject Key;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         passDigits = password.Length;
+        Key.SetActive(false);
     }
 
     // Update is called once per frame
@@ -29,6 +31,7 @@ public class CodeScript : MonoBehaviour
             if (enteredPassword == password)
             {
                 this.gameObject.SetActive(false);
+                Key.SetActive(true);
             }
             else
             {
