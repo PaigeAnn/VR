@@ -47,6 +47,10 @@ public class CodeScript : MonoBehaviour
     {
         enteredPassword += btnNum;
     }
+    public void clear()
+    {
+        enteredPassword = "";
+    }
 }
 
 
