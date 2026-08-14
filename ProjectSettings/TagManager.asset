@@ -6,6 +6,9 @@ TagManager:
   tags:
   - key
   - obj
+  - redBox
+  - greenBox
+  - blueBox
   layers:
   - Default
   - TransparentFX

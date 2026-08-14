@@ -2,33 +2,26 @@ using UnityEngine;
 
 public class TriggerPuzzleScript : MonoBehaviour
 {
-  
-    public string objTag;
-    bool redBox = false;
+ 
+    public bool redBox = false;
 
 
     public void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.CompareTag(objTag))
-        {
-            if (other.gameObject.name == "RedBox")
+            if (other.CompareTag("redBox"))
             {
                 redBox = true;
-                Debug.Log("Triggered");
+                Debug.Log("Triggered red");
             }
-        }
     }
 
     public void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag(objTag))
-        {
-            if (other.gameObject.name == "RedBox")
+            if (other.gameObject.name == "redBox")
             {
                 redBox = false;
             }
             
-        }
 
     }
 }
