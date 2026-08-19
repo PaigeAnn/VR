@@ -2,25 +2,30 @@ using UnityEngine;
 
 public class LiftWall : MonoBehaviour
 {
-
-   public  TriggerPuzzleScript redBox;
+    public TriggerPuzzleScript redBox;
     public TriggerPuzzleScript1 greenBox;
     public TriggerPuzzleScript2 blueBox;
 
-    public Animation anim;
-  
-    void Start()
-    {
-        
-    }
+    public SimpleHapticFeedback hapticFeedback;
 
-    // Update is called once per frame
+    public Animation anim;
+
+    private bool wallActivated = false;
+
     void Update()
     {
-        if (redBox.redBox == true && greenBox.greenBox == true && blueBox.blueBox == true)
+        if (!wallActivated &&
+            redBox.redBox == true &&
+            greenBox.greenBox == true &&
+            blueBox.blueBox == true)
         {
-            anim.Play();
-        }
+            wallActivated = true;
 
+            // Play wall animation
+            anim.Play();
+
+            // Play haptic feedback once
+            hapticFeedback.PlayHapticFeedback(1f, 1.5f);
+        }
     }
 }
