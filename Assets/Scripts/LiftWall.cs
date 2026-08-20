@@ -12,6 +12,7 @@ public class LiftWall : MonoBehaviour
 
     private bool wallActivated = false;
 
+
     void Update()
     {
         if (!wallActivated &&

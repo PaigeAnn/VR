@@ -9,6 +9,7 @@ TagManager:
   - redBox
   - greenBox
   - blueBox
+  - killFloor
   layers:
   - Default
   - TransparentFX
