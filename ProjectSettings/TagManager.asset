@@ -10,6 +10,9 @@ TagManager:
   - greenBox
   - blueBox
   - killFloor
+  - Helmet
+  - Rope
+  - Reset
   layers:
   - Default
   - TransparentFX
@@ -17,10 +20,10 @@ TagManager:
   - Teleport
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Helmets
+  - Player
+  - Rope
+  - Ped
   - 
   - 
   - 

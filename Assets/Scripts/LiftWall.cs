@@ -22,10 +22,8 @@ public class LiftWall : MonoBehaviour
         {
             wallActivated = true;
 
-            // Play wall animation
             anim.Play();
 
-            // Play haptic feedback once
             hapticFeedback.PlayHapticFeedback(1f, 1.5f);
         }
     }

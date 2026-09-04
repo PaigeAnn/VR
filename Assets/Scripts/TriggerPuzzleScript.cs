@@ -11,7 +11,6 @@ public class TriggerPuzzleScript : MonoBehaviour
             if (other.CompareTag("redBox"))
             {
                 redBox = true;
-                Debug.Log("Triggered red");
             }
     }
 

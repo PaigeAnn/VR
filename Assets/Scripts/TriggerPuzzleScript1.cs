@@ -11,7 +11,6 @@ public class TriggerPuzzleScript1 : MonoBehaviour
             if (other.CompareTag("greenBox"))
             {
                 greenBox = true;
-                Debug.Log("Triggered green");
             }
     }
 
@@ -21,7 +20,5 @@ public class TriggerPuzzleScript1 : MonoBehaviour
             {
                 greenBox = false;
             }
-            
-
     }
 }
